@@ -15,7 +15,7 @@ echo "[INFO] d arg: ${DEST}"
 # source PDF check
 echo "[INFO] starting source PDF check..."
 echo "[INFO] source PDF: ${SRC}"
-SDIR="/home/hirata_y/texter/resource/sourcePdf/${SRC}"
+SDIR="/home/hirata_y/texter/source/${SRC}"
 if [ -f ${SDIR} ]; then
    echo "[INFO] source PDF found"
 else
@@ -27,7 +27,7 @@ echo "[INFO] finished source PDF check"
 # destination file check
 echo "[INFO] starting destination file check..."
 echo "[INFO] destination file: ${DEST}"
-DDIR="/home/hirata_y/texter/resource/outputText/${DEST}"
+DDIR="/home/hirata_y/texter/output/${DEST}"
 if [ -f ${DDIR} ]; then
    echo "[INFO] destination file found"
 else
