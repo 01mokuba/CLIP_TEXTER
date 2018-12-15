@@ -1,0 +1,15 @@
+[dirconfig]
+pdfdir = 
+txtdir = 
+jsondir = 
+
+[esconfig]
+endpoint = 
+index = 
+type = 
+
+[dbconfig]
+host = 
+user = 
+password = 
+database = 
