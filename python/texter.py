@@ -40,9 +40,8 @@ def get_pdf(db):
         rowid = i[0]
         docid = str(rowid)
         url = i[1]
-        #wget = "wget -O " + pdfdir + docid + ".pdf " + url
-        #print(wget)
-        #os.system(wget)
+        wget = "wget -O " + pdfdir + docid + ".pdf " + url
+        os.system(wget)
         return_val.append(docid)
 
     cursor.close()
